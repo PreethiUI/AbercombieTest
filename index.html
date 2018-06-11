@@ -3,6 +3,7 @@
 <html lang="en">
 
   <head>
+    <meta name="viewport" content="width=800px, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
     <script src="jquery-3.3.1.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -21,12 +22,12 @@
         <label class="gridTitle">Create Task</label><br><br>
           <div class="task">
             <label>Task Name</label><br>
-            <input type="text" id="name">
+            <input type="text" id="name" width="100%">
           </div>
 
           <div class="task">
             <label>Date</label><br>
-            <input type="date" id="date">
+            <input type="date" id="date" placeholder=" ">
           </div>
 
           <div class="task">
@@ -41,8 +42,8 @@
 
       <div class="gridItem">
         <label class="gridTitle">Existing Tasks</label><br><br>
-          <table id="taskTable">
-            <tr><th>Name</th><th>Date</th><th>Assigned</th></tr>
+          <table id="taskTable"  border="0" style="border-collapse:collapse;" cellspacing="0">
+            <tr><th colspan="2">Name</th><th colspan="2">Date</th><th>Assigned</th></tr>
           </table>
       </div>
     </div>
