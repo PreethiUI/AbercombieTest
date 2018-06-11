@@ -61,6 +61,7 @@ input{
 #taskTable {
   border : 5px solid #f2f2f2;
   border-radius : 5px;
+  background-color : white
 }
 
 th{
@@ -73,9 +74,8 @@ td {
 }
 
 /* Background color for the alternative rows in table */
-tr:nth-child(odd) {
-    background-color: #f2f2f2;
-    border : 5px solid #f2f2f2;
+#taskTable tr:nth-child(odd) {
+  background-color: #f2f2f2;
 }
 
 /* Font weight for the alternative data in rows in table */
