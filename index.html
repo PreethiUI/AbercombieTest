@@ -15,23 +15,23 @@
     <div class="row" id="firstTitle">
       <h1> Task Tracker </h1>
       <label>v2.0</label>
-      </div>
+    </div>
 
     <div class="grid-container">
       <div class="gridItem">
-        <label class="gridTitle">Create Task</label><br><br>
+        <label class="gridTitle">Create a Task</label><br><br>
           <div class="task">
-            <label>Task Name</label><br>
+            <label id=inputLabel>Task Name</label><br>
             <input type="text" id="name" width="100%">
           </div>
 
           <div class="task">
-            <label>Date</label><br>
+            <label id=inputLabel>Date</label><br>
             <input type="date" id="date" placeholder=" ">
           </div>
 
           <div class="task">
-            <label>Assigned To</label><br>
+            <label id=inputLabel>Assigned To</label><br>
             <input type="text" id="assigned">
           </div>
 
@@ -42,8 +42,8 @@
 
       <div class="gridItem">
         <label class="gridTitle">Existing Tasks</label><br><br>
-          <table id="taskTable" >
-            <tr><th colspan="2">Name</th><th colspan="2">Date</th><th>Assigned</th></tr>
+          <table id="taskTable"style=" width:"100% >
+            <tr ><th colspan="2">Name</th><th colspan="2">Date</th><th>Assigned</th></tr>
           </table>
       </div>
     </div>

@@ -1,19 +1,24 @@
 body {
   margin:10px;
-  background-color:gainsboro;
+  background-color:rgb(226,226,226);
+  width:800px;
+}
+
+#firstTitle h1 {
+  font-family : "Franklin Gothic Regular";
 }
 
 #firstTitle {
-  background-color: #f2f2f2;
+  background-color: rgb(240,240,240);;
   padding:20px 20px 40px 10px;
 }
 
 .grid-container {
   display: grid;
-  grid-column-gap: 10px;
+  grid-column-gap: 5px;
   grid-template-columns: auto auto auto;
-  padding-top: 10px;
   grid-template-columns: 1fr 1fr;
+  /* width:800px; */
 }
 .gridItem {
   background-color: white;
@@ -40,28 +45,36 @@ body {
 /* Features for all the text boxes. */
 input{
   border-radius: 5px;
-  background: lightgrey;
+  background-color: rgb(236,236,236);
+  border:0;
   padding: 10px;
-  width: 400px;
-  height: 10px;
+  width: 90%;
+  height: 16px;
+}
+
+#inputLabel {
+  font-family : "Arial";
+  font-size: 15px;
 }
 
 /* Submit Button */
 #submitButton {
-  border-radius: 8px;
-  background-color:  dimgrey;
-  padding: 10px;
-  width: 100px;
-  text-align:centre;
+  border-radius: 3px;
+  border :0 ;
+  background-color:  rgb(67,67,67);
+  padding: 8px;
+  width: 82px;
+  font-family :"sitka-banner";
+  text-align: center;
   vertical-align:middle;
   color:white;
-  font-size:15px;
+  font-size:17px;
 }
 
 #taskTable {
-  border : 5px solid #f2f2f2;
+  border : 5px solid  rgb(236,236,236);
   border-radius : 5px;
-  background-color : white
+  background-color : white;
 }
 
 th{
@@ -75,7 +88,7 @@ td {
 
 /* Background color for the alternative rows in table */
 #taskTable tr:nth-child(odd) {
-  background-color: #f2f2f2;
+  background-color: rgb(236,236,236);
 }
 
 /* Font weight for the alternative data in rows in table */
